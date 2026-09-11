@@ -1,1 +1,13 @@
+[INPUT]
+* Stock ticker symbol
+* Number of shares
+* Cost per share
 
+[PROCESSING]
+1. Prompt the user for ticker, shares, and cost.
+2. Multiply shares by cost per share.
+   Formula: amount_invested = shares * cost_per_share
+
+[OUTPUT]
+* Stock ticker symbol
+* Total amount invested (formatted to 2 decimal places)
