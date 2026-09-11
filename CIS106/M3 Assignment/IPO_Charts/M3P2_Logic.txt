@@ -1,1 +1,13 @@
+[INPUT]
+* Student last name
+* Midterm exam score
+* Final exam score
 
+[PROCESSING]
+1. Prompt the user for name, midterm score, and final score.
+2. Take 40% of the midterm score and add it to 60% of the final score.
+   Formula: total_points = (midterm_score * 0.40) + (final_score * 0.60)
+
+[OUTPUT]
+* Student last name
+* Total exam points (formatted to 1 decimal place)
