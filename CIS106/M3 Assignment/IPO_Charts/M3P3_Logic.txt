@@ -1,1 +1,10 @@
+[INPUT]
+* Total money amount received for the job
 
+[PROCESSING]
+1. Prompt the user for the total payment amount.
+2. Divide the total amount evenly by 3.
+   Formula: individual_share = total_amount / 3
+
+[OUTPUT]
+* Individual share amount (formatted to 2 decimal places)
