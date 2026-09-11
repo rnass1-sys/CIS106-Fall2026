@@ -1,1 +1,20 @@
+[INPUT]
+* Vehicle make
+* Vehicle model
+* Original MSRP amount
+* Discount percent (entered as a decimal)
 
+[PROCESSING]
+1. Prompt the user for car make, model, MSRP, and discount.
+2. Multiply the MSRP by the discount percent to find the savings.
+   Formula: amount_off = msrp * discount_percent
+3. Subtract the savings from the original MSRP to find the final price.
+   Formula: discounted_price = msrp - amount_off
+
+[OUTPUT]
+* Vehicle make
+* Vehicle model
+* Original MSRP (formatted to 2 decimal places)
+* Discount percent
+* Amount off MSRP (formatted to 2 decimal places)
+* Discounted price (formatted to 2 decimal places)
