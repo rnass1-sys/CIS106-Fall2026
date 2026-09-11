@@ -1,1 +1,14 @@
+[INPUT]
+* Radius of the circle
 
+[PROCESSING]
+1. Prompt the user for the circle radius.
+2. Set PI equal to 3.14.
+3. Multiply PI by the radius twice to find the area.
+   Formula: area = 3.14 * radius * radius
+4. Multiply 2 by PI and the radius to find the perimeter.
+   Formula: perimeter = 2 * 3.14 * radius
+
+[OUTPUT]
+* Circle Area (formatted to 2 decimal places)
+* Circle Perimeter (formatted to 2 decimal places)
